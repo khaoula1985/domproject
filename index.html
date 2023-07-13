@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkpoint DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+      <i class="fa fa-coffee" aria-hidden="true"> a cup of joy!</i>
+    
+    </div>
+    <div class="liste">
+      <ul>
+       <li> <a href="#home">home</a></li>
+       <li> <a href="#about">about</a></li>
+       <li> <a href="#menu">menu</a></li>
+       <li><a href="#review">review</a></li>
+      </ul>
+      </div>
+      <div>
+       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </div>
+</nav> 
+<section class="menu" id="menu">
+    <h1 class="heading">Our <span>Menu</span></h1>
+          <div class="box-containers">
+        <div class="box">
+          <img src="menu-1.png" alt="">
+          <div class="content">
+             <button id="heart"> <i class="fas fa-heart"></i></button>
+              <h3>our special coffee1</h3>
+              <p> taste of love</p>
+              <h3>$8</h3>
+              <button class="btnadd">Add to cart</i></button>
+         </div>
+        </div>
+       <div class="box">
+        <img src="menu-2.png" alt="">
+        <div class="content">
+            <button> <i class="fas fa-heart"></i></button>
+            <h3>our special coffee2</h3>
+            <p>taste of happiness</p>
+            <h3>$8</h3>
+            <button class="btnadd">Add to cart</i></button>
+        </div>
+    </div>
+  
+       <div class="box">
+        <img src="menu-3.png" alt="">
+        <div class="content">
+            <button> <i class="fas fa-heart"></i></button>
+            <h3>our special coffee3</h3>
+            <p>taste of hope</p>
+            <h3>$8</h3>
+            <button class="btnadd">Add to cart</i></button>
+        </div>
+    </div>
+       <div class="box">
+        <img src="menu-4.png" alt="">
+        <div class="content">
+            <button> <i class="fas fa-heart"></i></button>
+            <h3>our special coffee4</h3>
+            <p>taste of trust</p>
+            <h3>$8</h3>
+            <button class="btnadd">Add to cart</i></button>
+        </div>
+       </div>
+       <div class="box">
+        <img src="menu-5.png" alt="">
+        <div class="content">
+            <button> <i class="fas fa-heart"></i></button>
+            <h3>our special coffee5</h3>
+            <p>taste of life</p>
+            <h3>$8</h3>
+            <button class="btnadd">Add to cart</i></button>
+        </div>
+    </div>
+       <div class="box">
+        <img src="menu-6.png" alt="">
+        <div class="content">
+            <button> <i class="fas fa-heart"></i></button>
+            <h3>our special coffee6</h3>
+            <p>taste of patience</p>
+            <h3>$8</h3>
+            <button class="btnadd">Add to cart</i></button>
+        </div>
+       </div>
+    </div>
+    </section>  
+    
+    <div class="card">
+    <table>     
+     <thread>
+        <tr>
+            <th></th>
+            <th>item</th>
+            <th>name</th>
+            <th>number</th>
+            <th>unit price </th>
+            <th>Total price</th>
+            <th><i class="fas fa-trash-alt"></i></th>
+        </tr>
+    </thread>
+    <tbody>
+        <tr>
+           <!-- <td><input class="checkitem" type="checkbox"></td>
+            <td> <img class="itemimage" src="image/menu-1.png" alt="image" width="50px" height="50px"></td>
+            <td class="desigitem"> <h3 class="itemname">our special coffee1</h3></td>
+            <td><input  type='number' class= 'num' value='1' ></td>
+            <td class="itemprice"><h3>$8</h3></td>
+            <td class="totalprice"><h3>$8</h3></td>
+            <td><button class="button-danger" type="button">Remove</button></td>
+        </tr>
+    -->
+  
+    </tbody>
+        <tr>
+            
+                <td><input class="checkbox" type="checkbox"></td>
+                <td><img class="itemimage"  width="100" alt=""></td>
+                <td class="itemname" ><h3><strong>TOTAL</strong></h3></td>
+                <td><h3></h3></td>
+                <td class="itemprice"><h3></h3></td>
+                <td class="grandtotal"><h3>$0</h3></td>
+            
+        </tr>
+    
+</table>
+</div>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

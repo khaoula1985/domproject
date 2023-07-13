@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+--main-color:#443;
+--border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+--border-radius-hover:4% 95% 6% 95%/95% 4% 92% 5%;
+--border: .2rem solid var(--main-color);
+--border-hover: .2rem dashed var(--main-color);
+}
+
+*{
+   font-family: 'poppins',sans-serif;
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   outline: none;
+   border:none;
+   text-decoration: none;
+   text-transform:capitalize;
+   transition:all .2s linear;
+   color: black;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+    background-color:whitesmoke;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 70px;
+    font-size: 20px;
+} 
+
+nav ul li{
+    display: inline;
+    padding-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #C68E17;
+    margin-top: 70px;
+    font-style: bold;
+}
+.box-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+.box-containers .box{
+    width: 440px;
+    height:160px;
+    border: .2rem solid var(--main-color);
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top:10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.menu{ 
+background-image: url("conception-mise-page-abstraite-fond-mur-brun-lisse-studio-salle-modele-web-rapport-activite-couleur-degrade-cercle-lisse.jpg");
+background-repeat: no-repeat, repeat;
+}
+.menu h1{
+padding-bottom: 50px;
+
+margin-left:70px;
+}
+span{
+color: #C68E17;
+}
+.content .fa-heart{
+color:#C68E17;
+font-size:30px;
+
+}
+
+.box .img{
+    width:170px;
+    height: 170px;
+}
+
+.fa-cart-plus{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+
+table td{
+    padding-left: 20px;
+}
+
+.card{
+position: absolute;
+top:70px;
+left:1000px;
+border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+border: .2rem solid var(--main-color);
+background-color: beige;
+padding-right: 10px;
+}
+
+
+.card .itemname{
+    font-size: 12px;
+}
+.card .num{
+    width:50px;
+    
+}
+#sum{
+    padding-left: 20px;
+}
+.button-danger{
+    border-color: black;
+    background-color:#C68E17 ;
+    border-radius: 5px;
+    padding:2px;
+}
+
+.btnadd{
+    border-color:beige;
+    background-color:#C68E17 ; 
+    border-radius: 5px;
+    margin-left: 80px;
+    padding:2px;
+
+}
+.fa-heart:hover{
+    color:maroon;
+}
+
